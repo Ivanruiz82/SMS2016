@@ -2,3 +2,4 @@ Ivan Ruiz, 1234560, 0229876541, ivanruiz@weltec.ac.nz
 Jane Doe, 1234561, 0229876542, JaneDoe@weltec.ac.nz
 John Doe, 1234562, 0229876542, JohnDoe@weltec.ac.nz
 Allen Lopez, 1234563, 0229876543, allenLopez@weltec.ac.nz
+Allen David Lopez, 1234564, 0229876543, allenDLopez@weltec.ac.nz
