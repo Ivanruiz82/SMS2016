@@ -16,6 +16,7 @@ public class StudentMain {
 			int i;
 			int s;
 			int NameFound=0;
+			int matches =0;
 			for ( i=0; i< aryLines.length; i++) {
 				String[] studentContact = aryLines[i].split(", ");
 				for (s=0; s< studentNameSplit.length; s++){
@@ -36,20 +37,25 @@ public class StudentMain {
 				}
 				
 				if(NameFound ==1){
-					System.out.println( "Match Found");
+					matches++;
+					System.out.println( "--------------------------------");
 					System.out.println("Student Name: "+studentContact[0]);
 					System.out.println("Student ID: "+studentContact[1]);
 					System.out.println("Student Contact: "+studentContact[2]);
 					System.out.println("Student Email: "+studentContact[3]);
+					System.out.println( "--------------------------------");
 					}
 				
 				
 					
 				
 			}
-			if(NameFound==2){
+			if(matches==0){
 				System.out.println("No Match");
 				}
+			else{
+				System.out.println("Number of Matches: "+matches);
+			}
 			
 			}
 		catch (IOException e){
