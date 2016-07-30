@@ -13,8 +13,8 @@ public class StudentMain {
 		String[] NewStudent= null;
 		
 		System.out.println("Select an option");
-		System.out.println("1: Add Student Contact Information");
-		System.out.println("2: Search for Student Contatc Information");
+		System.out.println("1: Add New Student Record");
+		System.out.println("2: Search for Student Contact Information");
 	
 		System.out.println("3: Exit");
 		 select=user_int.nextInt( );
@@ -39,6 +39,8 @@ public class StudentMain {
 		case 2:
 			SearchContact searchcontact= new SearchContact();
 			searchcontact.searchName();
+			System.out.println("Thank You!");
+			System.out.println( "--------------------------------");
 			break;
 		case 3:
 			System.out.println("GoodBye");
