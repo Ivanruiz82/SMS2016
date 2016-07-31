@@ -1,4 +1,3 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class StudentMain 
@@ -8,12 +7,15 @@ public class StudentMain
 	{
 		int select=0;
 
+
+		while(select != 3){
+
 		while(select !=3)
 		{
+
 			
 		Scanner user_int = new Scanner(System.in); 
 		Scanner user_input = new Scanner(System.in);
-		String[] NewStudent= null;
 		
 		System.out.println("Select an option");
 		System.out.println("1: Add New Student Record");
@@ -51,5 +53,7 @@ public class StudentMain
 		 				break;
 		 		}
 	}
+		
+}
 }
 }
