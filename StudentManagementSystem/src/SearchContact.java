@@ -62,5 +62,6 @@ public class SearchContact {
 		catch (IOException e){
 			System.out.println( e.getMessage());
 		}
+		user_input.close();
 	}
 }
