@@ -47,7 +47,7 @@ public class StudentMain
 		 				System.out.println( "--------------------------------");
 		 				break;
 		 			case 3:
-		 				System.out.println("GoodBye");
+		 				System.out.println("GoodBye!");
 		 				break;
 		 		}
 	}
